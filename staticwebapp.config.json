@@ -1,8 +1,24 @@
 {
     "routes": [
         {
-            "route": "/demoanalisis/*",
-            "redirect": "/*"
+            "route": "/demoanalisis/static/js/main.1fcf1caa.chunk.js",
+            "redirect": "/static/js/main.1fcf1caa.chunk.js"
+        },
+        {
+            "route": "/demoanalisis/manifest.json",
+            "redirect": "/manifest.json"
+        },
+        {
+            "route": "/demoanalisis/static/js/2.599be260.chunk.js",
+            "redirect": "/static/js/2.599be260.chunk.js"
+        },
+        {
+            "route": "/demoanalisis/static/css/main.ac67d8bf.chunk.css",
+            "redirect": "/static/css/main.ac67d8bf.chunk.css"
+        },
+        {
+            "route": "/demoanalisis/index.html",
+            "redirect": "/index.html"
         }
     ]
 }
