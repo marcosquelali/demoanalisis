@@ -2,8 +2,7 @@
     "routes": [
         {
             "route": "/demoanalisis",
-            "redirect": "/",
-            "statusCode": 200
+            "rewrite": "/"
         }
     ]
 }
