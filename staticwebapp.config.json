@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/demoanalisis/*",
+      "serve": "/*",
+      "statusCode": 200
+    }
+  ]
+}
