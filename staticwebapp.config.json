@@ -1,8 +1,8 @@
-{
+re{
     "routes": [
         {
-            "route": "/demoanalisis",
-            "rewrite": "/"
+            "route": "/demoanalisis/*",
+            "redirect": "/*"
         }
     ]
 }
