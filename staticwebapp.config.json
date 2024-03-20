@@ -1,15 +1,11 @@
 {
     "routes": [
         {
-            "route": "/index.html",
-            "redirect": "/demoanalisis"
-        },
-        {
-            "route": "/",
-            "redirect": "/demoanalisis"
+            "route": "/demoanalisis",
+            "redirect": "/"
         }
     ],
     "navigationFallback": {
-        "rewrite": "/demoanalisis/index.html"
+        "rewrite": "/index.html"
     }
 }
