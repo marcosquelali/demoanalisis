@@ -1,9 +1,15 @@
 {
-  "routes": [
-    {
-      "route": "/demoanalisis/*",
-      "serve": "/*",
-      "statusCode": 200
+    "routes": [
+        {
+            "route": "/index.html",
+            "redirect": "/demoanalisis"
+        },
+        {
+            "route": "/",
+            "redirect": "/demoanalisis"
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "/demoanalisis/index.html"
     }
-  ]
 }
